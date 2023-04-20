@@ -1,7 +1,7 @@
 let time = new Date();
 let hour = time.getHours();
 let minute = time.getMinutes();
-const url = "https://ai-for-social-good.herokuapp.com";
+const url = "https://socialgood.onrender.com";
 $(".set-time").text(`${hour}:${minute}`);
 
 function getPredictions(text) {
